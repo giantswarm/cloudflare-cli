@@ -12,7 +12,14 @@ Clone the git repository: https://github.com/giantswarm/docker-cloudflare-cli.gi
 
 ## Running docker-cloudflare-cli
 
-TODO: Add an example.
+You can run the `cfcli` command via the Docker container with bind mounting a
+`.cfcli.yml` to `/root/.cfcli.yml`:
+```
+docker run --rm -it \
+  -v ~/.cfcli.yml:/root/.cfcli.yml
+  giantswarm/docker-cloudflare-cli \
+  listdomains
+```
 
 ## Contact
 
