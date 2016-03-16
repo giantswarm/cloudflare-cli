@@ -16,7 +16,7 @@ You can run the `cfcli` command within the Docker container with bind mounting a
 `.cfcli.yml` to `/root/.cfcli.yml`:
 ```
 docker run --rm -it \
-  -v ~/.cfcli.yml:/root/.cfcli.yml
+  -v ~/.cfcli.yml:/root/.cfcli.yml \
   giantswarm/docker-cloudflare-cli \
   listdomains
 ```
