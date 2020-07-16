@@ -1,7 +1,5 @@
 # CLI for interacting with Cloudflare in a Docker container
 
-[![IRC Channel](https://img.shields.io/badge/irc-%23giantswarm-blue.svg)](https://kiwiirc.com/client/irc.freenode.net/#giantswarm)
-
 `docker-cloudflare-cli` is a Docker wrapper for [danielpigott/cloudflare-cli](https://github.com/danielpigott/cloudflare-cli).
 
 ## Getting docker-cloudflare-cli
@@ -24,7 +22,6 @@ docker run --rm -it \
 ## Contact
 
 - Mailing list: [giantswarm](https://groups.google.com/forum/#!forum/giantswarm)
-- IRC: #[giantswarm](irc://irc.freenode.org:6667/#giantswarm) on freenode.org
 - Bugs: [issues](https://github.com/giantswarm/docker-cloudflare-cli/issues)
 
 ## Contributing & Reporting Bugs
